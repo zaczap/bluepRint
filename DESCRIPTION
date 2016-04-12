@@ -1,10 +1,13 @@
 Package: bluepRint
-Title: What the Package Does (one line, title case)
+Title: quick layouts for ggplot2 graphs
 Version: 0.0.0.9000
 Authors@R: person("First", "Last", email = "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
+Description: Provides a simple interface to arrange multiple plots in common patterns in order to reduce code.
+URL: https://github.com/zaczap/bluepRint
 Depends:
-    R (>= 3.2.3)
+    R (>= 3.2.0),
+    ggplot2 (>= 2.0.0),
+    couplet (>= 0.6)
 License: What license is it under?
 LazyData: true
 RoxygenNote: 5.0.1.9000
