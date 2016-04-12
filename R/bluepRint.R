@@ -47,6 +47,14 @@ blueprint.left_feature = function(plots, label=TRUE) {
 	plot
 }
 
+#' Layout function
+#'
+#' This function provides an interface to plot common layouts for ggplot2
+#'
+#' @export
+#' @examples
+#' blueprint('square', plot1, plot2, plot3, plot4)
+#' blueprint('square', plot1, plot2, plot3, plot4, label=F)
 blueprint = function(layout, ..., label=TRUE) {
 	require(ggplot2)
 	require(cowplot)
