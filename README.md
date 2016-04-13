@@ -1,5 +1,5 @@
 # bluepRint
-layout package for ggplot2, build on the [cowplot](https://github.com/wilkelab/cowplot) package
+layout package for ggplot2, built on top of the [cowplot](https://github.com/wilkelab/cowplot) package
 
 ## introduction
 The purpose of this package is to provide an efficient interface for laying out multiple ggplot2 graphs on a single panel using common layout patterns. It's very much a work in progress, but the basics are there.
