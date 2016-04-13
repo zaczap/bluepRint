@@ -21,7 +21,17 @@ plot2 = ggplot(mtcars, aes(x=mpg)) + geom_histogram() + labs(x='miles per gallon
 panel = blueprint('line', plot1, plot2)
 ```
 
-![example panel](https://raw.githubusercontent.com/zaczap/bluepRint/master/images/example.png)
+![example panel 1](https://raw.githubusercontent.com/zaczap/bluepRint/master/images/example1.png)
+
+or a more complicated layout can easily be achieved:
+
+```R
+plot3 = ggplot(mtcars, aes(x=wt)) + geom_histogram() + labs(x='weight', y='count') + theme_bw()
+
+panel = blueprint('left_feature', plot1, plot2, plot3)
+```
+![example panel 2](https://raw.githubusercontent.com/zaczap/bluepRint/master/images/example2.png)
+
 
 ## reference
 
