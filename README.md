@@ -36,4 +36,5 @@ panel = blueprint('left_feature', plot1, plot2, plot3)
 ## reference
 
 ![blueprint styles](https://raw.githubusercontent.com/zaczap/bluepRint/master/images/styles.png)
+![blueprint styles](https://raw.githubusercontent.com/zaczap/bluepRint/master/images/styles2.png)
 
